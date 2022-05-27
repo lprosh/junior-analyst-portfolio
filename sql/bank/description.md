@@ -1,6 +1,6 @@
 Источником данных является таблица TEST_SQL. 
 Тестовый вариант можно найти в файле 
-[make_database]('https://github.com/lprosh/junior-analyst-portfolio/blob/main/sql/bank/make_database.sql').
+[make_database](https://github.com/lprosh/junior-analyst-portfolio/blob/main/sql/bank/make_database.sql).
 
 Поля таблицы:
 - **ST_ORD (Varchar)** - сnатус заявки
@@ -85,7 +85,7 @@ LIMIT
 
 ### Задание 4
 
-<table style="text-align:right">
+<table>
 <caption>tab_nums</caption>
     <tr><th>numbers</th></tr>
     <tr><td>1</td></tr>
@@ -124,4 +124,4 @@ HAVING
   numbers > 0;
 </code></pre>
 
-Все запросы можно найти в файле [queries]('https://github.com/lprosh/junior-analyst-portfolio/blob/main/sql/bank/queries.sql').
+Все запросы можно найти в файле [queries](https://github.com/lprosh/junior-analyst-portfolio/blob/main/sql/bank/queries.sql).
