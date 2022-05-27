@@ -1,11 +1,11 @@
 CREATE TABLE test_sql (
-  st_ord TEXT,
-  type_product_name TEXT,
-  product_infosource1 TEXT,
-  create_date TEXT,
-  index_lead INTEGER DEFAULT 1,
-  index_issue INTEGER DEFAULT 1,
-  index_sum float
+  st_ord VARCHAR,
+  type_product_name VARCHAR,
+  product_infosource1 VARCHAR,
+  create_date DATE,
+  index_lead NUMBER DEFAULT 1,
+  index_issue NUMBER DEFAULT 1,
+  index_sum NUMBER
 );
 
 insert into test_sql (st_ord, type_product_name, product_infosource1, create_date, index_sum)
