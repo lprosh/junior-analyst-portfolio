@@ -1,6 +1,6 @@
 Источником данных является таблица TEST_SQL. 
 Тестовый вариант можно найти в файле 
-[make_database]('make_database.sql').
+[make_database]('https://github.com/lprosh/junior-analyst-portfolio/blob/main/sql/bank/make_database.sql').
 
 Поля таблицы:
 - **ST_ORD (Varchar)** - сnатус заявки
@@ -124,4 +124,4 @@ HAVING
   numbers > 0;
 </code></pre>
 
-Все запросы можно найти в файле [queries]('queries.sql').
+Все запросы можно найти в файле [queries]('https://github.com/lprosh/junior-analyst-portfolio/blob/main/sql/bank/queries.sql').
