@@ -62,3 +62,6 @@
 
 - tp_group – код тарифа	
 - tp_group_name – название тарифа	
+
+Тестовую базу данных можно [скачать](https://github.com/lprosh/junior-analyst-portfolio/blob/main/sql/mts/prd_sbx_general.db)
+или [создать с помощью запроса](https://github.com/lprosh/junior-analyst-portfolio/blob/main/sql/mts/prd_sbx_general.sql).

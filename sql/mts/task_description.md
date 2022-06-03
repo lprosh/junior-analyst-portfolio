@@ -11,8 +11,6 @@
 Для регионов и тарифных групп в результирующей таблице 
 должны быть их названия.
 
-Тестовую базу данных можно [скачать](https://github.com/lprosh/junior-analyst-portfolio/blob/main/sql/mts/prd_sbx_general.db)
-или [создать с помощью запроса](https://github.com/lprosh/junior-analyst-portfolio/blob/main/sql/mts/prd_sbx_general.sql).
 
 ### Решение
 
