@@ -23,9 +23,10 @@
 |  1  |  1  |
 
 
-<p>SQL-запрос к этой задаче:</p>
-<pre><code>SELECT * FROM A JOIN B ON A.a = B.b;
-</code></pre>
+SQL-запрос к этой задаче:
+```sql
+SELECT * FROM A JOIN B ON A.a = B.b;
+```
 
 + **LEFT JOIN**:
 
@@ -40,9 +41,10 @@
 |  1   |  1   |
 | NULL | NULL |
 
-<p>SQL-запрос к этой задаче:</p>
-<pre><code>SELECT * FROM A LEFT JOIN B ON A.a = B.b;
-</code></pre>
+SQL-запрос к этой задаче:
+```sql
+SELECT * FROM A LEFT JOIN B ON A.a = B.b;
+```
 
 + **RIGHT JOIN**:
 
@@ -58,9 +60,11 @@
 | NULL | NULL |
 
 
-<p>SQL-запрос к этой задаче:</p>
-<pre><code>SELECT * FROM A RIGHT JOIN B ON A.a = B.b;
-</code></pre>
+SQL-запрос к этой задаче:
+```sql
+SELECT * FROM A RIGHT JOIN B ON A.a = B.b;
+```
+
 
 + **FULL JOIN**:
 
@@ -76,9 +80,10 @@
 | NULL | NULL |
 | NULL | NULL |
 
-<p>SQL-запрос к этой задаче:</p>
-<pre><code>SELECT * FROM A FULL JOIN B ON A.a = B.b;
-</code></pre>
+SQL-запрос к этой задаче:
+```sql
+SELECT * FROM A FULL JOIN B ON A.a = B.b;
+```
 
 ### 2. Написать запрос, который выводит количество пятёрок и фамилии тех учеников, которые имеют более трёх двоек.
 
