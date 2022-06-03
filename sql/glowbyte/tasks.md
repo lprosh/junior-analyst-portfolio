@@ -94,8 +94,10 @@
 | Иванов  | 2    | Математика   |
 | Смирнов | 5    | Математика   |
 
-<p>SQL-запрос к этой задаче:</p>
-<pre><code>SELECT COUNT(mark),
+SQL-запрос к этой задаче:
+
+```sql
+SELECT COUNT(mark),
        name
 FROM TABLE
 WHERE mark = 5
@@ -106,7 +108,7 @@ WHERE mark = 5
      GROUP BY name
      HAVING COUNT(mark) > 3)
 GROUP BY name;
-</code></pre>
+```
 
 ### 3. Создать простую базу данных аптеки (см. [medicines_erd](https://github.com/lprosh/junior-analyst-portfolio/blob/main/sql/glowbyte/medicines_erd.png)).
 
@@ -135,18 +137,22 @@ GROUP BY name;
   - amount — количество купленного лекарства
   - client — имя покупателя
 
-<p>На какую сумму было продано арбидола за январь 2020?</p>
-<pre><code>SELECT SUM(t.sum)
+На какую сумму было продано арбидола за январь 2020?
+
+```sql
+SELECT SUM(t.sum)
 FROM transact t
 JOIN drugs d ON t.id = d.id
 WHERE d.name = 'Арбидол'
   AND strftime('%Y-%m', t.tr_date) = '2020-01';
-</code></pre>
+```
 
-<p>Вывести названия товаров, сумму продаж по этим товарам из TRANSACT, 
-  у которых количествово товаров из таблицы AVAILABILITY на 31.01.2020 было больше десяти, 
-  а цена по этим товарам в таблице PRICE в течение 2020 года была не менее 100 рублей.</p>
-<pre><code>SELECT drugs.name,
+Вывести названия товаров, сумму продаж по этим товарам из TRANSACT, 
+у которых количествово товаров из таблицы AVAILABILITY на 31.01.2020 было больше десяти, 
+а цена по этим товарам в таблице PRICE в течение 2020 года была не менее 100 рублей.
+
+```sql
+SELECT drugs.name,
        SUM(transact.sum) AS Сумма
 FROM transact
 JOIN drugs ON transact.id = drugs.id
@@ -158,6 +164,6 @@ WHERE (availability.amount > 1
        AND (price.price > 100
             AND strftime('%Y', availability.eff_date_from) = '2020'
             AND strftime('%Y', availability.eff_date_to) = '2020'));
-</code></pre>
+```
 
 Все запросы можно найти в файле [queries](https://github.com/lprosh/junior-analyst-portfolio/blob/main/sql/glowbyte/queries.sql).
