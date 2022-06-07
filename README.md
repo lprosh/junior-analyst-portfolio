@@ -40,8 +40,9 @@
 
 
 ## Курсы
-- [Excel Power Tools for Data Analysis](https://github.com/lprosh/junior-analyst-portfolio/tree/main/Excel%20Power%20Tools%20for%20Data%20Analysis):
+В папке [Excel Power Tools for Data Analysis](https://github.com/lprosh/junior-analyst-portfolio/tree/main/Excel%20Power%20Tools%20for%20Data%20Analysis)
+содержатся результаты прохождения курса на Coursera. В ходе обучения производились
   - импорт, объединение, преобразование и сведение данных с помощью надстройки Power Query,
-  - доступ к модели данных с использованием Power Pivot и аналитических функций (функции кубов),
+  - получение доступа к модели данных с использованием Power Pivot и аналитических функций (функции кубов),
   - использование DAX для мощного анализа данных,
   - визуализация данных с помощью Power BI.
