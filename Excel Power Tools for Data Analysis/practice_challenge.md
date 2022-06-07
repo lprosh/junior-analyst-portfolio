@@ -6,7 +6,7 @@
 4. Удалить столбец Monthly Average.
 5. Отменить свёртывание данных и изменить имена столбцов так, чтобы они выглядели следующим образом (показаны не все строки):
 <!---->
-![Отменённые сводные данные и переименованные столбцы выглядят так](https://github.com/lprosh/junior-analyst-portfolio/tree/main/Excel%20Power%20Tools%20for%20Data%20Analysis/unpivoted_data_and_renamed_columns.png)
+![Отменённые сводные данные и переименованные столбцы выглядят так](https://github.com/lprosh/junior-analyst-portfolio/blob/main/Excel%20Power%20Tools%20for%20Data%20Analysis/unpivoted_data_and_renamed_columns.png)
 <!---->
 6. Добавить столбец с именем % Target Achieved, который делит Sales на Monthly Target, и изменить тип данных на Процент.
 7. Закрыть и загрузить запрос на лист "Данные о продажах".
@@ -17,11 +17,11 @@
 * Каков был общий совокупный объём продаж аксессуаров и одежды за февраль?
   * Общий совокупный объём продаж за февраль составил 76645 единиц товара.
 <!---->
-![Общий совокупный объём продаж аксессуаров и одежды за февраль](https://github.com/lprosh/junior-analyst-portfolio/tree/main/Excel%20Power%20Tools%20for%20Data%20Analysis/total_sales_for_accessories_and_clothes_for_february.jpg)
+![Общий совокупный объём продаж аксессуаров и одежды за февраль](https://github.com/lprosh/junior-analyst-portfolio/blob/main/Excel%20Power%20Tools%20for%20Data%20Analysis/total_sales_for_accessories_and_clothes_for_february.jpg)
 <!---->
 10. Создать сводную диаграмму с областями и накоплением, чтобы визуализировать тенденции продаж в сводной таблице.
 <!---->
-![Моя сводная диаграмма](https://github.com/lprosh/junior-analyst-portfolio/tree/main/Excel%20Power%20Tools%20for%20Data%20Analysis/my_pivot_charts.png)
+![Моя сводная диаграмма](https://github.com/lprosh/junior-analyst-portfolio/blob/main/Excel%20Power%20Tools%20for%20Data%20Analysis/my_pivot_charts.png)
 
 Ход решения можно посмотреть в файле [C3W2 Practice Challenge](https://github.com/lprosh/junior-analyst-portfolio/tree/main/Excel%20Power%20Tools%20for%20Data%20Analysis/C3W2%20Practice%20Challenge.xlsx).
 
@@ -58,7 +58,7 @@
 
 Получившаяся модель данных:
 
-![Модель данных](https://github.com/lprosh/junior-analyst-portfolio/tree/main/Excel%20Power%20Tools%20for%20Data%20Analysis/my_scheme.png)
+![Модель данных](https://github.com/lprosh/junior-analyst-portfolio/blob/main/Excel%20Power%20Tools%20for%20Data%20Analysis/my_scheme.png)
 
 
 [Файл с решением](https://github.com/lprosh/junior-analyst-portfolio/tree/main/Excel%20Power%20Tools%20for%20Data%20Analysis/C3W3%20Practice%20Challenge.xlsx).
