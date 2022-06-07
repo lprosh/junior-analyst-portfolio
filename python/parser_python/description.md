@@ -13,5 +13,11 @@ pip install pandas
 pip install matplotlib
 ```
 
+Или можно сделать это с помощью команды:
+
+```
+pip install -r requirements.txt
+```
+
 Весь код находится в файле [main.py](https://github.com/lprosh/junior-analyst-portfolio/blob/main/python/parser_python/main.py).
 Результаты парсинга записываются в [birth_rate_table](https://github.com/lprosh/junior-analyst-portfolio/blob/main/python/parser_python/birth_rate_table.csv).

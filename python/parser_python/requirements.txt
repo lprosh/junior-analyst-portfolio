@@ -1,0 +1,5 @@
+beautifulsoup4==4.11.1
+lxml==4.9.0
+requests==2.27.1
+pandas==1.4.2
+matplotlib==3.5.2
